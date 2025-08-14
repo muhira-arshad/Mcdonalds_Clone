@@ -3,13 +3,13 @@
     "name": "mcdonalds-pakistan",
     "slug": "mcdonalds-pakistan",
     "version": "1.0.0",
-    "sdkVersion": "52.0.0",
+    "sdkVersion": "53.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "runtimeVersion": {
       "policy": "sdkVersion"
     },
-    "newArchEnabled": true, 
+    "newArchEnabled": true,
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -27,6 +27,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
